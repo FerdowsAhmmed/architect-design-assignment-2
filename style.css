@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    margin: 10px 100px;
+    background-color: aliceblue;
+}
+
+.navbar{
+    display: flex;
+    padding-top: 20px;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+
+.logo{
+    margin-right: auto;
+}
+
+.spacial-part{
+    font-size: 1.5em;
+    color: rgb(70, 70, 228);
+}
+
+.menu{
+    padding-top: 20px;
+}
+
+.menu-item{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+   }
+
+.menu-item li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-item li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: blue;
+    color: white;
+    transition: all 0.5s ease-out;
+}
+
+.page-tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-tittle .tittle-text{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin-bottom: 10px;
+}
+
+.page-tittle img{
+    width: 100%;
+}
+
+.btn1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(192, 105, 6);
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.spacial{
+    color: rgba(0, 0, 0, 0.63);
+}
+
+.feature-head2{
+    color: rgb(219, 139, 18);
+}
+
+.btn2{
+    color: antiquewhite;
+    background: rgb(192, 105, 6);
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: rgba(0, 0, 0, 0.838);
+    }
+
+.btn2:hover{
+    background-color: rgba(0, 0, 0, 0.838);
+    }
+
+.feature{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feature-images{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img2:hover{
+    transform: translateX(10px) rotate(5deg) translateY(5px);
+    transition: all 1s ease-out;
+    
+}
+.feature-text{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 30px;
+    gap: 10px;
+}
+
+.experience {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    position: relative;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+   }
+
+.ex-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+   padding-left: 10px;
+}
+
+.box h3{
+    font-size: 25px;
+}
+
+.ex-img:hover{
+    transform: translateX(10px) rotate(-1deg) translateY(5px);
+    
+    transition: all 0.5s ease-out;  
+}
+
+.btn-spacial{
+    background: rgb(228, 140, 41);
+    color: azure;
+    font-size: 35px;
+    
+    border-radius: 10px;
+    border: none;
+   width: 250px;
+   padding: 5px;
+   position: absolute;
+   bottom: 5%;
+   left: 38%;
+
+}
+
+
+.fact-section{
+    padding-top: 100px;
+   
+}
+.facts{
+    font-size: 1.4em;
+}
+.fact-head{
+    padding-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.achivement-section{
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+}
+.boxes{
+    border: 1px solid gainsboro;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 30px;
+}
+.unique{
+    margin-top: 100px;
+    text-align: center;
+}
+.unique-tittle{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+.unique-section{
+    display: flex;
+    gap: 18px;  
+    background: rgb(83, 112, 87);
+    justify-content: center;
+    align-items: center;
+
+}
+.u-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+    
+}
+
+.u-box img:hover{
+    transform: translateX(10px) rotate(-1deg) translateY(5px);
+    transition: all 0.5s ease-out;     
+}
+
+.boxes:hover{
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+}
+.sponsor{
+    margin-top: 100px;
+    width: 100%;
+    height: 500px;
+}
+
+
+.sponsor-text{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.sponsor-text h2{
+    font-size: 50px;
+}
+
+#part2{
+    margin-top: 100px;
+    display: flex;
+   justify-content: space-around;
+}
+
+#part2 .img:hover{
+   transform: translateX(10px) rotate(1deg) translateY(5px);
+transition: all 0.5s ease-in; 
+}
+
+
+.footer{
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 100px;
+    color: rgba(237, 239, 236, 0.982);
+    background-color: rgba(69, 44, 9, 0.856);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  @media screen and (max-width:600px) {
+
+   .logo{
+    display: flex;
+    flex-direction: column;
+}
+.menu .menu-item{
+    display: flex;
+    flex-direction: column;
+}
+.page-tittle{
+    display: flex;
+    flex-direction: column;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 255, 0.276);
+    padding-bottom: 10px;
+}
+.feature-images{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.ex-text{
+    padding: 20px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    
+}
+.fact-section{
+    margin-top: 50px;
+    background-color: rgba(57, 198, 21, 0.626);
+    display: flex;
+    flex-direction: column;
+}
+.facts{
+    margin-left: 10px;
+}
+.boxes{
+    background-color: brown;
+}
+.achivement-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.unique{
+    display: flex;
+    flex-direction: column;
+}
+.unique-section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sponsor-text{
+    display: flex;
+    flex-direction: column;
+}
+.no-need{
+    display: none;
+}
+#part2{
+    display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+    
+}
+.footer{
+    margin-top: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+
+
+  }
